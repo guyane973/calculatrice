@@ -1,0 +1,330 @@
+body {
+    background-color:rgb(192, 192, 192);
+    }
+
+/* Début Ranger 1 à 6 */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .one {
+    background-color:rgb(192, 192, 192);
+    height: 1.5em;
+  }
+
+
+  .one p {
+    color: #000000;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+
+  .two {
+    background-color:rgb(192, 192, 192);
+    height: 1.5em;
+    grid-column: 3 / 3;
+  }
+
+
+  .three {
+    background-color:rgb(192, 192, 192);
+    height: 1.5em;
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+
+  .three h1 {
+    color: #000000;
+    margin-top: -10px;
+    margin-left: 55%;
+}
+
+
+.three h2 {
+  color: #000000;
+  margin-top: -50px;
+  margin-left: 75%;
+}
+
+
+.three h3 {
+  color: #000000;
+  margin-top: -45px;
+  margin-left: 95%;
+}
+
+
+  .four {
+    background-color:rgb(192, 192, 192);
+    height: 2em;
+    margin-top: -70px;
+  }
+
+
+
+  .four h1 {
+    color: #000000;
+    margin-top: -2px;
+    margin-left: 1%;
+}
+
+
+
+.four h2 {
+  color: #000000;
+  margin-top: -55px;
+  margin-left: 2em;
+}
+
+
+
+  .five {
+    background-color:rgb(192, 192, 192);
+    height: 2em;
+    grid-column: 3 / 3;
+    margin-top: -70px;
+  }
+
+
+
+  .six {
+    background-color:rgb(192, 192, 192);
+    height: 2em; 
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: -70px;
+  }
+
+
+
+  .six p {
+    color: #000000;
+    margin-top: 5px;
+    margin-left:96%;
+}
+
+
+
+  .seven {
+    background-color:rgb(192, 192, 192);
+    grid-column: 1 / 5;
+    grid-row: 3;
+    margin-top: -130px;
+    height: 9.5em;
+  }
+
+
+
+  .seven h1 {
+    color: #000000;
+    margin-top: 45px;
+    margin-left: 97%;
+    font-size: 55px;
+}
+
+
+
+  .eight {
+    background-color:rgb(192, 192, 192);
+      grid-column: 1 / 3;
+      grid-row: 3;
+      margin-top: 40px;
+      height: 3.5em;
+    }
+
+
+    .eight h1 {
+      color: rgb(152 152 152);
+      margin-top: 35px;
+      margin-left: 18%;
+      font-size: 12px;
+      font: normal;
+  }
+
+
+  .eight h2 {
+    color: rgb(152 152 152);
+    margin-top: -23px;
+    margin-left: 48%;
+    font-size: 12px;
+    font: normal;
+}
+
+
+
+.eight h3 {
+  color: #000000;
+  margin-top: -25px;
+  margin-left: 78%;
+  font-size: 12px;
+  font: normal;
+}
+
+
+    .nine {
+      background-color:rgb(192, 192, 192);
+      grid-column: 3 / 5;
+      grid-row: 3;
+      margin-top: 40px;
+      height: 3.5em;
+    }
+
+
+    .nine h1 {
+      color: #000000;
+      margin-top: 35px;
+      margin-left: 18%;
+      font-size: 12px;
+      font: normal;
+  }
+
+
+  .nine h2 {
+    color: #000000;
+    margin-top: -23px;
+    margin-left: 48%;
+    font-size: 12px;
+    font: normal;
+}
+
+
+
+.nine h3 {
+  color: rgb(152 152 152);
+  margin-top: -25px;
+  margin-left: 78%;
+  font-size: 12px;
+  font: normal;
+}
+
+
+
+  .ten {
+    background-color: rgb(68 100 161);
+    grid-column: 4;
+    grid-row: 3 / 4;
+    height: 3.5em;
+  }
+    /* Fin Ranger 7 à 9 */
+
+
+
+
+/* Start Block */
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 0.6em;
+}
+
+.box1 {
+  background-color: rgb(218 218 218);
+}
+
+.box2 {
+  background-color: rgb(218 218 218);
+}
+
+.box3 {
+  background-color: rgb(218 218 218);
+}
+
+.box4 {
+  background-color: rgb(218 218 218);
+}
+
+.box5 {
+  background-color: rgb(218 218 218);
+}
+
+.box6 {
+  background-color: rgb(218 218 218);
+}
+
+.box7 {
+  background-color: rgb(218 218 218);
+}
+
+.box8 {
+  background-color: rgb(218 218 218);
+}
+
+.box9 {
+  background-color: rgb(247 247 247);
+}
+
+.box10 {
+  background-color: rgb(247 247 247);
+}
+
+.box11 {
+  background-color: rgb(247 247 247);
+}
+
+.box12 {
+  background-color: rgb(218 218 218);
+}
+
+.box13 {
+  background-color: rgb(247 247 247);
+}
+
+.box14 {
+  background-color: rgb(247 247 247);
+}
+
+.box15 {
+  background-color: rgb(247 247 247);
+}
+
+.box16 {
+  background-color: rgb(218 218 218);
+}
+
+.box17 {
+  background-color: rgb(247 247 247);
+}
+
+.box18 {
+  background-color: rgb(247 247 247);
+}
+
+.box19 {
+  background-color: rgb(247 247 247);
+}
+
+.box20 {
+  background-color: rgb(218 218 218);
+}
+
+.box21 {
+  background-color: rgb(247 247 247);
+}
+
+.box22 {
+  background-color: rgb(247 247 247);
+}
+
+.box23 {
+  background-color: rgb(247 247 247);
+}
+
+.box24 {
+  background-color: rgb(218 218 218);
+}
+  
+  .wrapper2 p {
+      color: #000000;
+      margin-left: 45%;
+      margin-top: 20%;
+      font-size: large;
+  }
+
+/* End Block */
